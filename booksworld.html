@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksworld</title>
+    <link rel="stylesheet" href="./booksworld.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>PY-notes</h1>
+    </div>
+    <div class="container">
+        <div class="bookcontain">
+            <h2>datatypes</h2>
+            <h3>single value datatypes</h3>
+            <p>Lorem ipsum ad minus nobis nisi in quisquam animi, totam itaque, distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui voluptatem dolor eos, culpa voluptatibus magnam explicabo molestiae aliquam iste! Nobis voluptatibus assumenda labore inventore fugiat quasi provident autem consectetur dolorem. Eligendi quia voluptas, fuga quo omnis est nisi voluptate facere ipsa iusto et nesciunt cum alias consequuntur soluta iure? Impedit enim sapiente nisi reiciendis deserunt amet totam id itaque ad nihil! Eos iste mollitia saepe sequi reiciendis sed iure architecto harum. Eligendi fugiat tempore perspiciatis eos. Temporibus voluptas sequi quos architecto, perspiciatis repudiandae labore velit est unde iste saepe impedit voluptate quasi laudantium suscipit nulla! Fugiat eum provident magnam? </p>
+            <button onclick="deletebook(event)">DELETE</button>
+        </div>
+        
+
+    </div>
+    <div class="overlay"></div>
+    <div class="popupbox">
+        <h2>Add some notes for referenece</h2>
+        <form> 
+            <input type="text" placeholder="topic" id="book-title">
+            <input type="text" placeholder="sub title" id="father-of-program">
+            <textarea name=""  placeholder="defination" id="book-description"></textarea>
+            <button id="add">ADD</button>
+            <button id="cancel">CANCEL</button>
+        </form>
+    </div>
+    <button class="button" id="addpopup">+</button>
+    <script src="./booksworld.js"></script>
+</body>
+</html>

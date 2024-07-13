@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.navbar{
+    background-color: rgb(76, 11, 255);
+    color: aliceblue;
+    padding: 10px;
+}
+.container{
+    padding: 20px;
+}
+
+.bookcontain{
+    width:200px;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bookcontain h2{
+    color: rgb(42, 5, 255);
+}
+.bookcontain  h3{
+    color: rgb(255, 166, 0);
+  }
+
+
+.bookcontain button{
+    background-color: rgb(255, 174, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 20px;
+}
+
+.button{
+    background-color: rgb(255, 160, 18);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+}
+.overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display:none;
+}
+
+.popupbox{
+    background-color: rgb(247, 169, 0);
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top:20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.popupbox input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    border-bottom: solid black 3px;
+}
+
+.popupbox textarea{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    border:solid black 3px;
+}
+
+.popupbox ::placeholder{
+    color: black;
+}
+
+.popupbox button{
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: wheat;
+    margin: 6px;
+}
